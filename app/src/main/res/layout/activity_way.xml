@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_way">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/split_now"
+        android:orientation="vertical"
+        android:paddingLeft="28dp"
+        android:paddingTop="170dp">
+
+        <TextView
+            android:id="@+id/tv_way1"
+            android:layout_width="360dp"
+            android:layout_height="150dp"
+            android:background="@drawable/way1"
+            android:textColor="#495263"
+            android:fontFamily="@font/fredoka_one"
+            android:paddingLeft="120dp"
+            android:paddingTop="50dp"
+            android:text="\t\tEqual Split"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/tv_way2"
+            android:layout_width="360dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/way2"
+            android:textColor="#414D63"
+            android:fontFamily="@font/fredoka_one"
+            android:paddingLeft="40dp"
+            android:paddingTop="40dp"
+            android:text="\t\t\tSplit by \n \t\t\tAmount"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/tv_way3"
+            android:layout_width="360dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/way3"
+            android:textColor="#1D345E"
+            android:fontFamily="@font/fredoka_one"
+            android:paddingLeft="150dp"
+            android:paddingTop="40dp"
+            android:text="Split by \nPercentage"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/welcome_edit"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</RelativeLayout>

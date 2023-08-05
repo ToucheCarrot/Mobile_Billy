@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_count3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/count"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ttl_3"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/count_edit"
+            android:drawableRight="@drawable/money"
+            android:fontFamily="@font/langar"
+            android:hint="\t\tTotal Amount: "
+            android:inputType="numberDecimal"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:paddingLeft="8dp"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="195dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/count_edit"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/langar"
+                android:text="\n\t\t Friends: "
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/members_3"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/welcome_edit"
+                android:backgroundTint="#ECECEC"
+                android:ems="18"
+                android:fontFamily="@font/langar"
+                android:inputType="textPersonName"
+                android:hint="\t\tName"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:paddingLeft="8dp"/>
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/autour_one"
+                android:minHeight="48dp"
+                android:text="Store Name"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/percentage"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/count_edit"
+                android:backgroundTint="#ECECEC"
+                android:ems="18"
+                android:fontFamily="@font/langar"
+                android:hint="\t\tPercentage: "
+                android:inputType="number"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:paddingLeft="8dp"/>
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/welcome_edit"
+                android:backgroundTint="#49836E"
+                android:fontFamily="@font/fredoka_one"
+                android:text="ADD"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/count_edit"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/langar"
+                android:text="\n\t\t Number of People: "
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/number_3"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/welcome_edit"
+                android:backgroundTint="#ECECEC"
+                android:ems="18"
+                android:fontFamily="@font/langar"
+                android:inputType="number"
+                android:hint="\t\tNumbers of People"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:paddingLeft="8dp"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/bt_calculate"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/welcome_edit"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Calculate"
+        android:textColor="#FFFDFD"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/welcome_edit"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+</RelativeLayout>
